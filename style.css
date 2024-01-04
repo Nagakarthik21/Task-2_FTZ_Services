@@ -1,0 +1,139 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url("bg.jpg");
+    background-attachment:fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Trebuchet MS;
+}
+.main{
+    position: relative;
+    margin:0 auto;
+    width:950px;
+}
+.top_nav{
+    margin-bottom:20px;
+    display:flex;
+}
+.top_nav ul{
+    display:inline-flex;
+    margin-left:auto;
+    list-style-type:none;
+    background-color: #405C8C;
+    padding:5px;
+}
+.top_nav a{
+    color:white;
+    text-decoration: none;
+    font-size:small;
+}
+.top_nav li + li:before{
+    content: "|";
+    padding: 0 10px;
+    color:white;
+}
+.header{
+    background-color:rgba(18,32,56,0.9);
+    padding: 5px;
+}
+.header ul{
+    display:flex;
+    justify-content: flex-end;
+    list-style-type: none;
+    padding:15px;
+}
+.header li + li:before{
+    content: "|";
+    color: white;
+}
+.header a{
+    text-decoration:none;
+    font-size: 18px;
+    color:#9DCCE9;
+    padding: 5px 15px;
+}
+.nav{
+    border:1px solid #414D5F;
+    padding:5px;
+}
+.logo{
+    position:absolute;
+    top:10px;
+    left:15px;
+    z-index: 1;
+}
+.nav a:hover{
+    background-color: rgba(73,101,127,0.8);
+    color:white;
+    border-radius: 5px;
+}
+#title{
+    margin:auto;
+    padding:25px;
+    background-image:linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.4),rgba(0,0,0,0.3));
+}
+#title h1{
+    color:white;
+    font-weight: normal;
+    font-size: 40px;
+    letter-spacing: 8px;
+}
+.bringing_technology{
+    padding-top:5px;
+}
+.operational_excellence{
+    padding-bottom:5px;
+}
+.section{
+    background-color: rgba(18,32,56,0.9);
+    color:white;
+    padding:5px;
+}
+.home{
+    display:flex;
+    border:1px solid;
+    border-image:linear-gradient(to bottom,rgba(65,77,95,0) 0%, rgba(65,77,95,1) 100%);
+    border-image-slice:1;
+    padding-bottom: 20px;
+}
+.tile1{
+    padding:15px 20px 20px;
+}
+.tile2{
+    padding:15px 25px 0px 5px;
+}
+.tile3{
+    padding:15px 25px 0px 5px;
+}
+.tile1 img{
+    filter:brightness(200%);
+}
+.home img{
+    padding-bottom: 10px;
+}
+.home p{
+    padding-bottom:15px;
+    line-height: 23px;
+}
+.section a{
+    color:#9DCCE9;
+}
+.footer{
+    margin-top:10px;
+    background-color:#2D3E6B;
+    color:white;
+    text-align:center;
+    padding:5px;
+}
+.footer a{
+    color:white
+}
+.footer span:after{
+    content: "|";
+    padding: 0 10px;
+    color:white;
+}
